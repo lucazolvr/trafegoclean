@@ -19,7 +19,7 @@ public class Lista<T> {
      * Adiciona um elemento ao final da lista.
      * @param elemento Elemento a ser adicionado.
      */
-    public void adiciona(T elemento) {
+    public void adicionar(T elemento) {
         No<T> novoNo = new No(elemento);
         if (head == null) {
             head = novoNo;
